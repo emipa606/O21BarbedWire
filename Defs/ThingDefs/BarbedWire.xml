@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>BarbedWire</defName>
+    <label>barbed wire</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <description>Simple defensive structure that reduces movement and provides no cover.</description>
+    <designationCategory>Security</designationCategory>
+    <graphicData>
+      <texPath>BarbedWire/BarbedWire_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>Basic</linkType>
+      <linkFlags>
+        <li>Custom2</li>
+      </linkFlags>
+    </graphicData>
+    <designationHotKey>Misc10</designationHotKey>
+    <uiIconPath>BarbedWire/BarbedWire_Icon</uiIconPath>
+    <constructEffect>ConstructMetal</constructEffect>
+    <repairEffect>ConstructMetal</repairEffect>
+    <altitudeLayer>Building</altitudeLayer>
+    <building>
+      <isInert>true</isInert>
+      <blueprintGraphicData>
+        <texPath>BarbedWire/BarbedWire_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <statBases>
+      <Beauty>-2</Beauty>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToMake>200</WorkToMake>
+      <Flammability>0</Flammability>
+    </statBases>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>6</multiplier>
+      </li>
+    </damageMultipliers>
+    <costList>
+      <Steel>3</Steel>
+    </costList>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+    <passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+    <pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.1</fillPercent>
+    <coversFloor>false</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <holdsRoof>false</holdsRoof>
+    <staticSunShadowHeight>0.0</staticSunShadowHeight>
+    <blockLight>false</blockLight>
+  </ThingDef>
+</Defs>
