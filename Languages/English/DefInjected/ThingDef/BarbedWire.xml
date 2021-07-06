@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <BarbedWire.label>barbed wire</BarbedWire.label>
   <BarbedWire.description>Simple defensive structure that reduces movement and provides no cover.</BarbedWire.description>
   <BarbedWire_Blueprint.label>barbed wire (blueprint)</BarbedWire_Blueprint.label>
   <BarbedWire_Frame.label>barbed wire (building)</BarbedWire_Frame.label>
   <BarbedWire_Frame.description>Simple defensive structure that reduces movement and provides no cover.</BarbedWire_Frame.description>
-
-
 </LanguageData>
