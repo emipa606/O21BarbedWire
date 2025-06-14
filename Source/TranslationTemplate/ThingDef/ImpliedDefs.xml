@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: barbed wire (blueprint) -->
+  <Blueprint_BarbedWire.label>barbed wire (blueprint)</Blueprint_BarbedWire.label>
+  <!-- EN: barbed wire (building) -->
+  <Frame_BarbedWire.label>barbed wire (building)</Frame_BarbedWire.label>
+  <!-- EN: Simple defensive structure that reduces movement and provides no cover. -->
+  <Frame_BarbedWire.description>Simple defensive structure that reduces movement and provides no cover.</Frame_BarbedWire.description>
+</LanguageData>

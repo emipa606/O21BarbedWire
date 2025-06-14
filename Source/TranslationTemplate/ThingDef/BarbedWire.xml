@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: barbed wire -->
+  <BarbedWire.label>barbed wire</BarbedWire.label>
+  <!-- EN: Simple defensive structure that reduces movement and provides no cover. -->
+  <BarbedWire.description>Simple defensive structure that reduces movement and provides no cover.</BarbedWire.description>
+</LanguageData>
